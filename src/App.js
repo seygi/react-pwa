@@ -19,7 +19,7 @@ const Page = ({ title }) => (
         <Link to="/about">About</Link>
       </p>
       <p>
-        <Link to="/Seygi">Seygi</Link>
+        <Link to="/Seygi">Seygi 5</Link>
       </p>
       <p>
         <Link to="/settings">Settings</Link>
