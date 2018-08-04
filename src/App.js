@@ -19,6 +19,9 @@ const Page = ({ title }) => (
         <Link to="/about">About</Link>
       </p>
       <p>
+        <Link to="/Seygi">Seygi</Link>
+      </p>
+      <p>
         <Link to="/settings">Settings</Link>
       </p>
     </div>
@@ -32,6 +35,10 @@ const About = (props) => (
   <Page title="About"/>
 );
 
+const Seygi = (props) => (
+  <Page title="Seygi"/>
+);
+
 const Settings = (props) => (
   <Page title="Settings"/>
 );
@@ -42,7 +49,7 @@ class App extends Component {
       <Router history={browserHistory}>
         <Route path="/" component={Home}/>
         <Route path="/about" component={About}/>
-        <Route path="/seygi" component={About}/>
+        <Route path="/seygi" component={Seygi}/>
         <Route path="/settings" component={Settings}/>
       </Router>
     );
